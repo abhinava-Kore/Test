@@ -1,0 +1,19 @@
+{
+  "name": "versyka-upgrade-evaluation-fixture",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dependency audit and major-version compatibility fixture for Versyka evaluation",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "pnpm@11.13.0",
+  "dependencies": {
+    "express": "4.17.1",
+    "lodash": "4.17.20",
+    "minimist": "1.2.5"
+  }
+}
